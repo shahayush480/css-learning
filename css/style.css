@@ -1,3 +1,66 @@
 h1{
     color:green
 }
+
+   /* id selector // use this id selector only once */
+   #leaderRedTeam {
+    color: orange;
+}
+
+/* tag selector  */
+h1 {
+
+
+    /* property : value  */
+
+    /* how to change colour of text  */
+    /* color // red,green, blue,yellow */
+    color: rgb(60, 170, 255);
+}
+
+/* class selector  */
+
+.colorGreen {
+    color: #00ff37;
+}
+
+.colorRed {
+    color: red;
+}
+
+
+* {}
+
+/* 1) inline styling  */
+/* 2) id selector  */
+/* 3) class selector  */
+/* 4) tag selector  */
+/* 5) universal selector  */
+
+.box {
+    width: 300px;
+    padding: 40px;
+    border: 10px solid;
+    margin: 20px auto;
+}
+
+.box1 {}
+
+.box2 {
+    /* margin: 50px 40px 10px; */
+    /*   top  left/right  bottom */
+
+    /* margin: 50px 40px ; */
+    /* top/bottom   left/right */
+    /* margin: 10px 20px 30px 50px; */
+    /* top right bottom left */
+
+}
+
+.box3 {
+    padding: 10px 20px 30px 50px;
+}
+
+.box1 p {
+    color: red;
+}
